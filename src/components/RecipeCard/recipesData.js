@@ -1,44 +1,43 @@
 import borch from './images/borch.png';
-import dumplings from './images/dumplings.png';
+import pizza from './images/pizza.png';
 import pasta from './images/pasta.png';
 import salad from './images/salad.png';
-
 
 export const recipesData = [
   {
     id: 1,
-    title: 'Smoked salmon burger',
+    title: 'Ukrainian Borsch',
     image: borch,
-    time: '20 min',
-    servings: '8 servings',
-    calories: '210 calories',
-    difficulty: 'Easy',
-  },
-  {
-    id: 2,
-    title: 'Tomatoes With Creamy Feta',
-    image: dumplings,
-    time: '15 min',
-    servings: '3 servings',
-    calories: '600 calories',
-    difficulty: 'Easy',
-  },
-  {
-    id: 3,
-    title: 'Spicy potato salad',
-    image: pasta,
-    time: '30 min',
-    servings: '2 servings',
-    calories: '320 calories',
+    time: '90 min',
+    servings: '6 servings',
+    calories: '350 calories',
     difficulty: 'Medium',
   },
   {
-    id: 4,
-    title: 'Chicken Biryani',
-    image: salad,
-    time: '40 min',
+    id: 2,
+    title: 'Homemade Pizza',
+    image: pizza,
+    time: '45 min',
     servings: '4 servings',
-    calories: '700 calories',
-    difficulty: 'Hard',
+    calories: '850 calories',
+    difficulty: 'Medium',
+  },
+  {
+    id: 3,
+    title: 'Shrimp Pasta',
+    image: pasta,
+    time: '25 min',
+    servings: '2 servings',
+    calories: '520 calories',
+    difficulty: 'Easy',
+  },
+  {
+    id: 4,
+    title: 'Fresh Pomegranate Salad',
+    image: salad,
+    time: '15 min',
+    servings: '2 servings',
+    calories: '240 calories',
+    difficulty: 'Easy',
   },
 ];
