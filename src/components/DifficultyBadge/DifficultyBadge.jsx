@@ -1,12 +1,16 @@
+import {Badge} from "./DifficultyBadge.styled";
+import {Container} from "./DifficultyBadge.styled";
+import { DivC } from "./DifficultyBadge.styled";
+
 export function DifficultyBadge({ difficulty }) {
   return (
-    <div className="difficulty-container">
+<Container className="difficulty-container">
       <p>Difficulty</p>
-      <div>
-        <span className={difficulty === 'Easy' ? 'active' : ''}>Easy</span>
-        <span className={difficulty === 'Medium' ? 'active' : ''}>Medium</span>
-        <span className={difficulty === 'Hard' ? 'active' : ''}>Hard</span>
-      </div>
-    </div>
+      <DivC>
+       <Badge className={difficulty === 0}>Easy</Badge>
+        <Badge className={difficulty === 1}>Medium</Badge>
+        <Badge className={difficulty === 3}>Hard</Badge>
+      </DivC>
+    </Container>
   );
 }
